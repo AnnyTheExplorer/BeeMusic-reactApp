@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+.rightsidebar {
+  width: 25%;
+  height: 100vh;
+  background-color: #f5f5ff;
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-top: 25px;
+}
+.shortcuts {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+.lists {
+  display: flex;
+  padding-top: 15px;
+}
+.lists p {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 12px;
+}
+.lists p:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition: 0.2s all ease-in-out;
+}
+.lists .chill, .acoustic, .blues, .hop, .pop, .jazz {
+  background-color: white;
+}
+.fav-artist {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+}

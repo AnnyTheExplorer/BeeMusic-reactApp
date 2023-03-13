@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+}
+.leftsidebar {
+  width: 15%;
+  height: 100vh;
+  min-width: 180px;
+  background-color: white;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: orange;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.logo .music {
+  color: black;
+}
+.logo .icon {
+  color: black;
+  font-size: 15px;
+  padding-left: 70px;
+
+}
+.logo .icon:hover {
+  cursor: pointer;
+}
+.user {
+  /* display: flex;
+  flex-direction: column; */
+  padding-top: 30px;
+
+}
+.user .home-icon, .trend-icon, .feed-icon {
+  padding-bottom: 20px;
+}
+.user .home-icon:hover, .trend-icon:hover, .feed-icon:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  width: 70%;
+  padding: 10px;
+  border-radius: 12px;
+  transition: 0.2s all ease-in;
+}
+.user .icon, .promotion .icon, .collection .icon {
+  padding-right: 15px;
+}
+.promotion h3, .collection h3 {
+  padding-bottom: 15px;
+  font-size: 14px;
+}
+.promotion .new-icon, .release-icon, .event-icon, .collection .song-icon, .artist-icon, .album-icon {
+  padding-bottom: 20px;
+}
+.promotion .new-icon:hover, .release-icon:hover, .event-icon:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  width: 70%;
+  padding: 10px;
+  border-radius: 12px;
+  transition: 0.2s all ease-in-out;
+}
+.collection .song-icon:hover, .artist-icon:hover, .album-icon:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  width: 70%;
+  padding: 10px;
+  border-radius: 12px;
+  transition: 0.2s all ease-in-out;
+}

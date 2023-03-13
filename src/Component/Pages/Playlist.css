@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+.playlist .songs {
+  display: flex;
+  justify-content: space-between;
+}
+.songs {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+}
+.my-playlist h1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+.other {
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.other:hover {
+  cursor: pointer;
+}
