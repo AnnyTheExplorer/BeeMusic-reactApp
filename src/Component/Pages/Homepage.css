@@ -3,4 +3,6 @@
 }
 .homepage-body {
   display: flex;
+  min-width: 100vw;
+  min-height: 100vh;
 }

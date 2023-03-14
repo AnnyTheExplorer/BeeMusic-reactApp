@@ -1,15 +1,9 @@
 import React from "react";
 import "./Playcard.css";
 import {
-  FaCreativeCommonsPdAlt,
-  FaFoursquare,
   FaHeadphonesAlt,
   FaRegHeart,
-  FaRegPauseCircle,
   FaRegPlayCircle,
-  FaScroll,
-  FaShuttleVan,
-  FaSlidersH,
   FaStepBackward,
   FaStepForward,
   FaVolumeDown,
@@ -36,7 +30,7 @@ function Playcard() {
           <FaStepBackward />
         </span>
         <span className="icon">
-          <FaRegPlayCircle />
+          <FaRegPlayCircle fontSize="30px"/>
         </span>
         <span className="icon">
           <FaStepForward />
@@ -46,14 +40,13 @@ function Playcard() {
         </span>
       </div>
       <div className="three">
-        <span className="icons">
+        <span className="icon">
           <FaVolumeDown />
         </span>
-        <span>
-          <FaSlidersH />
-        </span>
-        <span className="icons">
+        <span className="icon">
           <FaVolumeUp />
+        </span>
+        <span className='icon'>
         </span>
       </div>
     </div>

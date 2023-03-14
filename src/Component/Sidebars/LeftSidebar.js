@@ -1,15 +1,12 @@
 import React from "react";
 import "./LeftSidebar.css";
-import { FaFolderPlus, FaHome, FaOutdent, FaRegCalendar, FaRegMap, FaRegUser, FaEnvelope, FaHeart, FaUserCircle, FaUserFriends, FaStar } from "react-icons/fa";
+import { FaFolderPlus, FaHome, FaRegCalendar, FaRegMap, FaRegUser, FaEnvelope, FaHeart, FaUserFriends, FaStar } from "react-icons/fa";
 
 function LeftSidebar() {
   return (
     <div className="leftsidebar">
       <div className="logo">
         Bee<span className="music">Music</span>
-        <span className="icon">
-          <FaOutdent />
-        </span>
       </div>
       <div className="section1">
         <div className="user">

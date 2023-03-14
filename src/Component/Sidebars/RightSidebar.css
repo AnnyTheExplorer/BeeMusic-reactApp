@@ -8,9 +8,14 @@
   padding-left: 20px;
   padding-right: 5px;
   padding-top: 25px;
+  overflow-y: overlay;
+  padding-bottom: 60px;
+}
+.rightsidebar::-webkit-scrollbar {
+  display: none;
 }
 .shortcuts {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 16px;
 }
 .lists {
@@ -33,10 +38,63 @@
   color: white;
   transition: 0.2s all ease-in-out;
 }
-.lists .chill, .acoustic, .blues, .hop, .pop, .jazz {
+.lists .chill,
+.acoustic,
+.blues,
+.hop,
+.pop,
+.jazz {
   background-color: white;
 }
+.fav {
+  margin-bottom: 100px;
+}
 .fav-artist {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 24px;
+}
+.artist-list {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.artist-list .artist1,
+.artist2,
+.artist3,
+.artist4 {
+  display: flex;
+  font-size: 14px;
+}
+.artist-list .artist1:hover,
+.artist2:hover,
+.artist3:hover,
+.artist4:hover {
+  cursor: pointer;
+}
+.artist-list .icon {
+  padding-right: 20px;
+  font-size: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.img-container {
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+.right-img img {
+  border-radius: 12px;
+  padding: 20px 20px 0;
+  margin: auto;
+  display: block;
+}
+.img-text {
+  font-size: 15px;
+  padding: 5px;
+  padding-left: 20px;
+}
+@media screen and (max-width: 900px) and (min-width: 300px) {
+  .rightsidebar {
+    display: none;
+  }
 }

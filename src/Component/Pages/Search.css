@@ -43,4 +43,15 @@
 input:focus {
   outline: none;
 }
-
+@media screen and (max-width: 900px) and (min-width: 300px) {
+.search-arrow .arrow {
+  display: none;
+}
+.arrow {
+  display: none;
+}
+.search-input {
+  height: 25px;
+  min-width: 200px;
+}
+}
