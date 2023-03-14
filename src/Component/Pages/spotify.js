@@ -1,6 +1,6 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 
-const redirectUri = "https://bee-music-react-8af6mvpsm-annytheexplorer.vercel.app/";
+const redirectUri = "http://localhost:3000/";
 
 const clientId = "0e7cfce0c8be4e2484679acd3e795360";
 
@@ -13,14 +13,16 @@ const scopes = [
 ];
 
 export const getTokenFromUrl = () => {
-  return window.location.hash.substring(1).split('&')
-  .reduce((initial, item) => {
-    var parts = item.split('=');
-    initial[parts[0]] = decodeURIComponent(parts[1]);
+  return window.location.hash
+    .substring(1)
+    .split("&")
+    .reduce((initial, item) => {
+      var parts = item.split("=");
+      initial[parts[0]] = decodeURIComponent(parts[1]);
 
-    return initial;
-  }, {});
-}
+      return initial;
+    }, {});
+};
 
 export const loginUrl = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
   "%20"
