@@ -1,6 +1,8 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 
-const redirectUri = "http://localhost:3000/";
+const redirectUri = (process.env.NODE_ENV = "production"
+  ? "https://bee-music-react-f2l2zl4xw-annytheexplorer.vercel.app/"
+  : "http://localhost:3000/");
 
 const clientId = "0e7cfce0c8be4e2484679acd3e795360";
 
